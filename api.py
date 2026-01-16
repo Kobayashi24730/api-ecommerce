@@ -14,17 +14,17 @@ app.add_middleware(
 products = [
     {
         "id": 1,
-        "name": "Notebook",
+        "name": "Notebook Gamer",
         "text": "Notebook gamer com placa de vídeo",
         "price": 3500,
-        "img": "https://via.placeholder.com/300"
+        "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400"
     },
     {
         "id": 2,
         "name": "Celular",
         "text": "Celular com câmera 64MP",
         "price": 2500,
-        "img": "https://via.placeholder.com/300"
+        "img": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
     }
 ]
 
