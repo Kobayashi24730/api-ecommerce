@@ -12,20 +12,147 @@ app.add_middleware(
 )
 
 products = [
-    {
-        "id": 1,
-        "name": "Notebook Gamer",
-        "text": "Notebook gamer com placa de vídeo",
-        "price": 3500,
-        "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400"
-    },
-    {
-        "id": 2,
-        "name": "Celular",
-        "text": "Celular com câmera 64MP",
-        "price": 2500,
-        "img": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
-    }
+  {
+    "id": 1,
+    "category": "camisas",
+    "name": "Camisa Floral Masculina",
+    "price": 50.72,
+    "text": "Camisa masculina de manga curta com estampa floral, tecido leve e confortável.",
+    "images": [
+      "/img/camisa-floral-1.jpg",
+      "/img/camisa-floral-2.jpg",
+      "/img/camisa-floral-3.jpg"
+    ],
+    "variants": [
+      { "size": "P", "stock": 5 },
+      { "size": "M", "stock": 3 },
+      { "size": "G", "stock": 0 },
+      { "size": "GG", "stock": 2 }
+    ]
+  },
+
+  {
+    "id": 2,
+    "category": "camisas",
+    "name": "Camisa Social Slim",
+    "price": 89.90,
+    "text": "Camisa social slim fit ideal para ocasiões formais ou trabalho.",
+    "images": [
+      "/img/camisa-social-1.jpg",
+      "/img/camisa-social-2.jpg"
+    ],
+    "variants": [
+      { "size": "P", "stock": 2 },
+      { "size": "M", "stock": 6 },
+      { "size": "G", "stock": 4 }
+    ]
+  },
+
+  {
+    "id": 3,
+    "category": "sapatos",
+    "name": "Tênis Casual Urbano",
+    "price": 189.90,
+    "text": "Tênis casual com design moderno e solado confortável.",
+    "images": [
+      "/img/tenis-urbano-1.jpg",
+      "/img/tenis-urbano-2.jpg"
+    ],
+    "variants": [
+      { "size": "38", "stock": 4 },
+      { "size": "39", "stock": 2 },
+      { "size": "40", "stock": 0 },
+      { "size": "41", "stock": 6 },
+      { "size": "42", "stock": 1 }
+    ]
+  },
+
+  {
+    "id": 4,
+    "category": "sapatos",
+    "name": "Sapato Social Masculino",
+    "price": 249.90,
+    "text": "Sapato social em couro sintético, ideal para eventos e trabalho.",
+    "images": [
+      "/img/sapato-social-1.jpg",
+      "/img/sapato-social-2.jpg"
+    ],
+    "variants": [
+      { "size": "39", "stock": 3 },
+      { "size": "40", "stock": 1 },
+      { "size": "41", "stock": 0 },
+      { "size": "42", "stock": 2 }
+    ]
+  },
+
+  {
+    "id": 5,
+    "category": "roupas",
+    "name": "Calça Jeans Slim",
+    "price": 129.90,
+    "text": "Calça jeans slim fit com elastano e ótimo caimento.",
+    "images": [
+      "/img/calca-jeans-1.jpg",
+      "/img/calca-jeans-2.jpg"
+    ],
+    "variants": [
+      { "size": "38", "stock": 5 },
+      { "size": "40", "stock": 3 },
+      { "size": "42", "stock": 0 },
+      { "size": "44", "stock": 2 }
+    ]
+  },
+
+  {
+    "id": 6,
+    "category": "roupas",
+    "name": "Jaqueta Corta Vento",
+    "price": 159.90,
+    "text": "Jaqueta corta vento impermeável, ideal para dias frios e chuvosos.",
+    "images": [
+      "/img/jaqueta-1.jpg",
+      "/img/jaqueta-2.jpg"
+    ],
+    "variants": [
+      { "size": "P", "stock": 1 },
+      { "size": "M", "stock": 4 },
+      { "size": "G", "stock": 2 }
+    ]
+  },
+
+  {
+    "id": 7,
+    "category": "eletronicos",
+    "name": "Fone de Ouvido Bluetooth",
+    "price": 99.90,
+    "text": "Fone bluetooth com cancelamento de ruído e bateria de longa duração.",
+    "images": [
+      "/img/fone-1.jpg",
+      "/img/fone-2.jpg"
+    ],
+    "variants": [
+      { "size": "Preto", "stock": 10 },
+      { "size": "Branco", "stock": 0 },
+      { "size": "Azul", "stock": 4 }
+    ]
+  },
+
+  {
+    "id": 8,
+    "category": "eletronicos",
+    "name": "Smartwatch Fitness",
+    "price": 199.90,
+    "text": "Smartwatch com monitor cardíaco, contador de passos e notificações.",
+    "images": [
+      "/img/smartwatch-1.jpg",
+      "/img/smartwatch-2.jpg"
+    ],
+    "variants": [
+      { "size": "Preto", "stock": 3 },
+      { "size": "Cinza", "stock": 5 },
+      { "size": "Rosa", "stock": 1 }
+    ]
+  }
 ]
 
 #  Listar todos os produtos
