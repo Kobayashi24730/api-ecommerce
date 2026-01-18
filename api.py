@@ -19,9 +19,9 @@ products = [
     "price": 50.72,
     "text": "Camisa masculina de manga curta com estampa floral, tecido leve e confortável.",
     "images": [
-      "/img/camisa-floral-1.jpg",
-      "/img/camisa-floral-2.jpg",
-      "/img/camisa-floral-3.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/camisa-floral-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/camisa-floral-2.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/camisa-floral-3.jpg"
     ],
     "variants": [
       { "size": "P", "stock": 5 },
@@ -38,8 +38,8 @@ products = [
     "price": 89.90,
     "text": "Camisa social slim fit ideal para ocasiões formais ou trabalho.",
     "images": [
-      "/img/camisa-social-1.jpg",
-      "/img/camisa-social-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/camisa-social-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/camisa-social-2.jpg"
     ],
     "variants": [
       { "size": "P", "stock": 2 },
@@ -55,8 +55,8 @@ products = [
     "price": 189.90,
     "text": "Tênis casual com design moderno e solado confortável.",
     "images": [
-      "/img/tenis-urbano-1.jpg",
-      "/img/tenis-urbano-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/tenis-urbano-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/tenis-urbano-2.jpg"
     ],
     "variants": [
       { "size": "38", "stock": 4 },
@@ -74,8 +74,8 @@ products = [
     "price": 249.90,
     "text": "Sapato social em couro sintético, ideal para eventos e trabalho.",
     "images": [
-      "/img/sapato-social-1.jpg",
-      "/img/sapato-social-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/sapato-social-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/sapato-social-2.jpg"
     ],
     "variants": [
       { "size": "39", "stock": 3 },
@@ -92,8 +92,8 @@ products = [
     "price": 129.90,
     "text": "Calça jeans slim fit com elastano e ótimo caimento.",
     "images": [
-      "/img/calca-jeans-1.jpg",
-      "/img/calca-jeans-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/calca-jeans-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/calca-jeans-2.jpg"
     ],
     "variants": [
       { "size": "38", "stock": 5 },
@@ -110,8 +110,8 @@ products = [
     "price": 159.90,
     "text": "Jaqueta corta vento impermeável, ideal para dias frios e chuvosos.",
     "images": [
-      "/img/jaqueta-1.jpg",
-      "/img/jaqueta-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/jaqueta-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/jaqueta-2.jpg"
     ],
     "variants": [
       { "size": "P", "stock": 1 },
@@ -127,8 +127,8 @@ products = [
     "price": 99.90,
     "text": "Fone bluetooth com cancelamento de ruído e bateria de longa duração.",
     "images": [
-      "/img/fone-1.jpg",
-      "/img/fone-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/fone-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/fone-2.jpg"
     ],
     "variants": [
       { "size": "Preto", "stock": 10 },
@@ -144,8 +144,8 @@ products = [
     "price": 199.90,
     "text": "Smartwatch com monitor cardíaco, contador de passos e notificações.",
     "images": [
-      "/img/smartwatch-1.jpg",
-      "/img/smartwatch-2.jpg"
+      "https://api-ecommerce-jywi.onrender.com/static/img/smartwatch-1.jpg",
+      "https://api-ecommerce-jywi.onrender.com/static/img/smartwatch-2.jpg"
     ],
     "variants": [
       { "size": "Preto", "stock": 3 },
