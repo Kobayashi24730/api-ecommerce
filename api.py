@@ -17,7 +17,8 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 products = [
   {
     "id": 1,
-    "category": "camisas",
+    "category": "masculino",
+    "type": "camisas",
     "name": "Camisa Floral Masculina",
     "price": 50.72,
     "text": "Camisa masculina de manga curta com estampa floral, tecido leve e confortável.",
@@ -36,7 +37,8 @@ products = [
 
   {
     "id": 2,
-    "category": "camisas",
+    "category": "masculino",
+    "type": "camisas",
     "name": "Camisa Social Slim",
     "price": 89.90,
     "text": "Camisa social slim fit ideal para ocasiões formais ou trabalho.",
@@ -53,7 +55,8 @@ products = [
 
   {
     "id": 3,
-    "category": "sapatos",
+    "category": "masculino",
+    "type": "sapatos",
     "name": "Tênis Casual Urbano",
     "price": 189.90,
     "text": "Tênis casual com design moderno e solado confortável.",
@@ -72,7 +75,8 @@ products = [
 
   {
     "id": 4,
-    "category": "sapatos",
+    "category": "masculino",
+    "type": "sapatos",
     "name": "Sapato Social Masculino",
     "price": 249.90,
     "text": "Sapato social em couro sintético, ideal para eventos e trabalho.",
@@ -90,7 +94,8 @@ products = [
 
   {
     "id": 5,
-    "category": "roupas",
+    "category": "feminino",
+    "type": "roupas",
     "name": "Calça Jeans Slim",
     "price": 129.90,
     "text": "Calça jeans slim fit com elastano e ótimo caimento.",
@@ -108,7 +113,8 @@ products = [
 
   {
     "id": 6,
-    "category": "roupas",
+    "category": "feminino",
+    "type": "roupas",
     "name": "Jaqueta Corta Vento",
     "price": 159.90,
     "text": "Jaqueta corta vento impermeável, ideal para dias frios e chuvosos.",
@@ -125,7 +131,8 @@ products = [
 
   {
     "id": 7,
-    "category": "eletronicos",
+    "category": "masculino",
+    "type": "eletronicos",
     "name": "Fone de Ouvido Bluetooth",
     "price": 99.90,
     "text": "Fone bluetooth com cancelamento de ruído e bateria de longa duração.",
@@ -142,7 +149,8 @@ products = [
 
   {
     "id": 8,
-    "category": "eletronicos",
+    "category": "feminino",
+    "type": "eletronicos",
     "name": "Smartwatch Fitness",
     "price": 199.90,
     "text": "Smartwatch com monitor cardíaco, contador de passos e notificações.",
@@ -156,8 +164,7 @@ products = [
       { "size": "Rosa", "stock": 1 }
     ]
   }
-]
-
+];
 
 @app.get("/products")
 def get_products():
