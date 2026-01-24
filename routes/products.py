@@ -1,8 +1,13 @@
-from flask import Blueprint, jsonify
-from services.product_service import get_all_products
+from fastapi import APIRouter
+from app.services.product_service import load_products
 
-products_bp = Blueprint("products", __name__)
+router = APIRouter()
 
-@products_bp.route("/products", methods=["GET"])
-def products():
-    return jsonify(get_all_products())
+@router.get("/")
+def get_products():
+    return load_products()
+
+@router.get("/category/{category}")
+def get_by_category(category: str):
+    products = load_products()
+    return [p for p in products if p.get("category", "").lower() == category.lower()]
